@@ -978,6 +978,8 @@
     <Content Include="Views\Partials\Home\_ContentSection.cshtml" />
     <Content Include="Views\Partials\Home\_ServicesSection.cshtml" />
     <Content Include="Views\Partials\Home\_BlogSection.cshtml" />
+    <Content Include="Views\Blog.cshtml" />
+    <Content Include="Views\About.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
