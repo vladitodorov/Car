@@ -1,0 +1,18 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	Layout = "WebBase.cshtml";
+}
+
+@* the fun starts here *@
+
+@*@{Html.RenderAction("RenderFeaturedSection", "Home");}*@
+
+@{Html.RenderAction("RenderFeaturedProduct", "Home");}
+
+@{Html.RenderAction("RenderPortfolioSection", "Home");}
+
+@*@{Html.RenderAction("RenderContentSection", "Home");}*@
+
+@{Html.RenderAction("RenderServicesSection", "Home");}
+
+@*@{Html.RenderAction("RenderBlogSection", "Home");}*@
